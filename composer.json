@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Tchoulom\\ViewCounterBundle\\": ""
+            "jalso\\ViewCounterBundle\\": ""
         },
         "exclude-from-classmap": [
             "/Tests/"
@@ -21,10 +21,10 @@
     },
     "require": {
         "php": ">=5.5.9",
-        "symfony/symfony": "4.*"
+        "symfony/symfony": "4.*
+		"
     },
     "require-dev": {
         "phpunit/phpunit": ">5.7"
-    },
-    "minimum-stability": "stable"
+    }
 }
