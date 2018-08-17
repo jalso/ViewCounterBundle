@@ -1,5 +1,5 @@
 {
-    "name": "tchoulom/view-counter-bundle",
+    "name": "jalso/view-counter-bundle",
     "license": "MIT",
     "type": "symfony-bundle",
     "description": "The \"View Counter\" bundle",
@@ -21,7 +21,7 @@
     },
     "require": {
         "php": ">=5.5.9",
-        "symfony/symfony": ">2.7"
+        "symfony/symfony": "4.*"
     },
     "require-dev": {
         "phpunit/phpunit": ">5.7"
