@@ -6,6 +6,7 @@ services:
     tchoulom.view_counter.base:
         class: '%tchoulom.view_counter.base.class%'
         abstract:  true
+		public: true
         arguments:
             - '@doctrine.orm.entity_manager'
             - '@request_stack'
@@ -14,3 +15,4 @@ services:
     tchoulom.view_counter:
         class: '%tchoulom.view_counter.class%'
         parent: tchoulom.view_counter.base
+		public: true
